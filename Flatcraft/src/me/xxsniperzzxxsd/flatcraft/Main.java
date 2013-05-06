@@ -23,7 +23,7 @@ public class Main extends JavaPlugin {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 		Player player = (Player)sender;
 		if(cmd.getName().equalsIgnoreCase("Flatcraft")){
-			player.sendMessage(ChatColor.BOLD+"Flatcraft is a server Owned by the awesome Cwk!");
+			player.sendMessage(ChatColor.BOLD+"Flatcraft is a server Owned by the awesome cwk4229!");
 		}
 		return true;
 	}

@@ -6,4 +6,4 @@ description: Nothing at this point
 commands:
     Flatcraft:
         usage: /Command
-        description: My first command!
+        description: A bit about Flatcraft server.

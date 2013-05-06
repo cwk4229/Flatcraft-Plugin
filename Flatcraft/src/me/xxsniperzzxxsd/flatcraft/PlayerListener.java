@@ -16,7 +16,7 @@ public class PlayerListener {
 
 	@EventHandler(priority = EventPriority.HIGHEST)
 	public void onPlayerJoin(PlayerJoinEvent e){
-		e.getPlayer().sendMessage(ChatColor.UNDERLINE+"Welcome to Flatcraft");
+		e.getPlayer().sendMessage(ChatColor.UNDERLINE+"Welcome to Flatcraft!");
 		
 	}
 

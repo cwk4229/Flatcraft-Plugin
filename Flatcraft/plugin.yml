@@ -1,9 +1,9 @@
-name : flatcraft
-version: 0.1
+name : Flatcraft
+version: Alpha-0.1
 main: me.xxsniperzzxxsd.flatcraft.Main
-author: xdevilx04
-description: Nothing at this point
+author: cwk4229
+description: Custom plugin made for the Flatcraft Network
 commands:
     Flatcraft:
-        usage: /Command
+        usage: /flatcraft
         description: A bit about Flatcraft server.

@@ -23,7 +23,7 @@ public class Main extends JavaPlugin {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 		Player player = (Player)sender;
 		if(cmd.getName().equalsIgnoreCase("Flatcraft")){
-			player.sendMessage(ChatColor.YELLOW+"Flatcraft is a creative server with many diffrent fun things to do");
+			player.sendMessage(ChatColor.YELLOW+"The Flatcraft Network is a fun network of servers to play on involving many different things.");
 		}
 		return true;
 	}

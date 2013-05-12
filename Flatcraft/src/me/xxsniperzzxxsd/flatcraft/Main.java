@@ -25,6 +25,21 @@ public class Main extends JavaPlugin {
 		if(cmd.getName().equalsIgnoreCase("Flatcraft")){
 			player.sendMessage(ChatColor.YELLOW+"The Flatcraft Network is a fun network of servers to play on involving many different things.");
 		}
+		public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
+		Player player = (Player)sender;
+	        else if(cmd.getName().equalsIgnoreCase("Build")){
+		        player.sendMessage(ChatColor.YELLOW+"The Flatcraft Build Server is a Creative server where you build what you want, but it also has a Survival section.");
+		}
+		public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
+		Player player = (Player)sender;
+	        else if(cmd.getName().equalsIgnoreCase("PvP")){
+		        player.sendMessage(ChatColor.YELLOW+"The Flatcraft PvP Server is a Minigames server with Survival Games, TF2 and more exciting minigames.");
+	        }
+	        public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
+		Player player = (Player)sender;
+	        else if(cmd.getName().equalsIgnoreCase("Prison")){
+		        player.sendMessage(ChatColor.YELLOW+"The Flatcraft Prison Server is an exciting Prison Server with drugs and much more fun things to do!.");
+	        }
 		return true;
 	}
 
